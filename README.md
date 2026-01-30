@@ -12,10 +12,12 @@
 - WSL
 
 ### 📌 Projetos em destaque
-- 🔹 Nome do projeto – breve descrição
-- 🔹 Nome do projeto – breve descrição
+Tradingview-indicators
 
 ### 📈 Em aprendizado
 - Autenticação (JWT)
 - Banco de dados (SQLite / PostgreSQL)
 - Boas práticas de API
+
+- ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)
+
