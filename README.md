@@ -1,23 +1,46 @@
-## 👋 Olá, eu sou o Allysson
+<div align="center">
+  <h2>👋 Olá, eu sou o Allysson</h2>
+  <br>
+  <p>
+    💻 <b>Desenvolvedor iniciante autodidata</b><br>
+    🚀 Estudando <b>Node.js</b> e <b>JavaScript</b><br>
+    🔌 Foco em <b>Backend</b> e <b>APIs REST</b><br>
+    🤖 Entusiasta de <b>Inteligência Artificial</b>
+  </p>
+</div>
 
-💻 Desenvolvedor iniciante autodidata  
-🚀 Estudando Node.js e JavaScript  
-🔌 Foco em backend e APIs REST  
-🤖 Entusiasta de Inteligência Artificial  
+<br>
 
-### 🛠 Tecnologias
-- Node.js
-- JavaScript
-- Git & GitHub
-- WSL
+<div align="center">
+  <a href="https://github.com/Allysson-Rodrigues">
+  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=Allysson-Rodrigues&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
+  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Allysson-Rodrigues&layout=compact&langs_count=7&theme=dracula"/>
+  </a>
+</div>
+
+<br>
+
+<div align="center">
+  <h3>🛠 Tecnologias</h3>
+  <img src="https://skillicons.dev/icons?i=js,nodejs,git,github,linux,vscode" alt="My Skills" />
+</div>
+
+<br>
+
+<div align="left">
 
 ### 📌 Projetos em destaque
-Tradingview-indicators
+* **[Tradingview-indicators](https://github.com/Allysson-Rodrigues/Tradingview-indicators)** *(Meus scripts e indicadores personalizados)*
 
 ### 📈 Em aprendizado
-- Autenticação (JWT)
-- Banco de dados (SQLite / PostgreSQL)
-- Boas práticas de API
+* 🔐 **Autenticação:** Implementação de JWT e Segurança.
+* 🗄️ **Banco de Dados:** Modelagem com SQLite e PostgreSQL.
+* 🏗️ **Arquitetura:** Boas práticas de API e Clean Code.
 
-- ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)
+</div>
 
+<br>
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=bd93f9&height=100&section=footer"/>
+</div>
