@@ -14,11 +14,10 @@ Desenvolvedor focado em **Backend com Node.js**. Sou movido por lógica, planeja
 
 ---
 
-### 📈 Estatísticas & Atividade
-<p align="left">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Allysson-Rodrigues&show_icons=true&theme=radical&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Allysson-Rodrigues&layout=compact&langs_count=7&theme=radical"/>
-</p>
+### 📌 Projetos em destaque
+**[Tradingview-indicators](https://github.com/Allysson-Rodrigues/Tradingview-indicators)**  
+Scripts e indicadores personalizados para análise técnica no TradingView.
+
 
 ---
 
