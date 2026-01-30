@@ -7,22 +7,25 @@
     🔌 Foco em <b>Backend</b> e <b>APIs REST</b><br>
     🤖 Entusiasta de <b>Inteligência Artificial</b>
   </p>
-</div>
-
-<br>
-
-<div align="center">
+  
+  <br>
+  
   <a href="https://github.com/Allysson-Rodrigues">
-    <img src="https://github-readme-stats.vercel.app/api?username=Allysson-Rodrigues&show_icons=true&theme=dracula&hide_border=true&v=1" alt="Stats" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Allysson-Rodrigues&layout=compact&langs_count=7&theme=dracula&hide_border=true&v=1" alt="Langs" />
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Badge"/>
   </a>
 </div>
 
 <br>
 
 <div align="center">
-  <h3>🛠 Tecnologias</h3>
-  <img src="https://skillicons.dev/icons?i=js,nodejs,git,github,linux,vscode" alt="My Skills" />
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+</div>
+
+<br>
+
+<div align="center">
+  <h3>🛠 Minha Caixa de Ferramentas</h3>
+  <img src="https://skillicons.dev/icons?i=js,nodejs,express,git,github,linux,vscode,docker,postgres" alt="My Skills" />
 </div>
 
 <br>
@@ -30,12 +33,13 @@
 <div align="left">
 
 ### 📌 Projetos em destaque
-* **[Tradingview-indicators](https://github.com/Allysson-Rodrigues/Tradingview-indicators)** *(Meus scripts e indicadores personalizados)*
+* **[Tradingview-indicators](https://github.com/Allysson-Rodrigues/Tradingview-indicators)**
+  <br> *Meus scripts e indicadores personalizados para análise técnica.*
 
-### 📈 Em aprendizado
-* 🔐 **Autenticação:** Implementação de JWT e Segurança.
-* 🗄️ **Banco de Dados:** Modelagem com SQLite e PostgreSQL.
-* 🏗️ **Arquitetura:** Boas práticas de API e Clean Code.
+### 📈 Em aprendizado atual
+* 🔐 **Autenticação & Segurança:** Implementação de JWT.
+* 🗄️ **Banco de Dados:** SQL (PostgreSQL) e NoSQL.
+* 🏗️ **Arquitetura:** MVC e Clean Code em Node.js.
 
 </div>
 
