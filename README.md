@@ -12,10 +12,11 @@
 <br>
 
 <div align="center">
-  <img height="160em" src="https://github-readme-stats.vercel.app/api?username=Allysson-Rodrigues&show_icons=true&theme=dracula&hide_border=true"/>
-  
-  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Allysson-Rodrigues&layout=compact&langs_count=7&theme=dracula&hide_border=true"/>
-</div>>
+  <a href="https://github.com/Allysson-Rodrigues">
+    <img src="https://github-readme-stats.vercel.app/api?username=Allysson-Rodrigues&show_icons=true&theme=dracula&hide_border=true&v=1" alt="Stats" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Allysson-Rodrigues&layout=compact&langs_count=7&theme=dracula&hide_border=true&v=1" alt="Langs" />
+  </a>
+</div>
 
 <br>
 
