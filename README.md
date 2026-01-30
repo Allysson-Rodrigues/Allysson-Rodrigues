@@ -1,16 +1,21 @@
-## Hi there 👋
+## 👋 Olá, eu sou o Allysson
 
-<!--
-**Allysson-Rodrigues/Allysson-Rodrigues** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+💻 Desenvolvedor iniciante autodidata  
+🚀 Estudando Node.js e JavaScript  
+🔌 Foco em backend e APIs REST  
+🤖 Entusiasta de Inteligência Artificial  
 
-Here are some ideas to get you started:
+### 🛠 Tecnologias
+- Node.js
+- JavaScript
+- Git & GitHub
+- WSL
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 📌 Projetos em destaque
+- 🔹 Nome do projeto – breve descrição
+- 🔹 Nome do projeto – breve descrição
+
+### 📈 Em aprendizado
+- Autenticação (JWT)
+- Banco de dados (SQLite / PostgreSQL)
+- Boas práticas de API
