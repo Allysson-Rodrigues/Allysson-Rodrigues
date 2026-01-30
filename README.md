@@ -8,6 +8,9 @@ Curioso por Inteligência Artificial.
 
 ### 🛠 Tecnologias
 Node.js • JavaScript • Express • Git • GitHub • Linux (WSL) • PostgreSQL • Docker
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=js,nodejs,express,git,github,postgres,docker,linux" />
+</div>
 
 ---
 
