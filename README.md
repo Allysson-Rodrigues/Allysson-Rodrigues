@@ -34,7 +34,7 @@ My first practical experience with applied logic. These are custom scripts and i
 
 ---
 ### 🌐 Connect with me
-[![Google Developer Profile](https://img.shields.io/badge/Google_Developer-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://g.dev/llyssonRodrigues)
+[![Google Developer Profile](https://img.shields.io/badge/Google_Developer-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://g.dev/AllyssonRodrigues)
 
 
 ### 🚀 Tech Stack
