@@ -36,8 +36,3 @@ My first practical experience with applied logic. These are custom scripts and i
 ### 🌐 Connect with me
 [![Google Developer Profile](https://img.shields.io/badge/Google_Developer-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://g.dev/AllyssonRodrigues)
 
-
-### 🚀 Tech Stack
-[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
-[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
-[![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
