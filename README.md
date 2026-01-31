@@ -1,8 +1,13 @@
 # Hi, I'm Allysson Rodrigues 👋
 
-**Backend Development Student** transitioning to the tech industry. Currently focused on building a solid foundation in **Node.js** and programming logic. 
+> **"Hard times create capitalists. Capitalists create good times. Good times create socialists. Socialists create hard times."**
 
-I believe that great code starts with great planning. I document my learning journey here to track my technical evolution and my problem-solving process.
+---
+
+### 🧠 Engineering Philosophy
+I believe that **efficiency is born from restriction**. In software engineering, this means that an abundance of hardware should never be an excuse for inefficient code. As a **planner and researcher**, I focus on building resilient architectures that thrive under any condition, ensuring the system is as solid as the logic behind it.
+
+I am a **Backend Development Student** focused on building a rock-solid foundation in **Node.js** and programming logic. I document my journey here to track my technical evolution and my problem-solving process.
 
 ---
 
@@ -33,6 +38,7 @@ My first practical experience with applied logic. These are custom scripts and i
 * 🐳 Exploring how **Docker** streamlines the development environment.
 
 ---
+
 ### 🌐 Connect with me
 [![Google Developer Profile](https://img.shields.io/badge/Google_Developer-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://g.dev/AllyssonRodrigues)
-
+[![X Profile](https://img.shields.io/badge/X-Profile-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/AllyssonRodriig)
