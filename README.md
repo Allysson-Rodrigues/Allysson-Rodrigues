@@ -1,5 +1,5 @@
 # Allysson Rodrigues
-**Backend Developer | Agentic Infrastructure Research**
+**Backend Development Student | AI Enthusiast**
 
 *"Hard times create capitalists. Capitalists create good times. Good times create socialists. Socialists create hard times."*
 
@@ -8,7 +8,7 @@
 ### Engineering Philosophy
 Efficiency is a product of restriction. In software engineering, hardware abundance is not a justification for inefficient code. As a researcher and developer, I focus on building resilient, high-performance backend architectures that remain robust under any infrastructure conditions.
 
-I am currently specializing in **Node.js** and high-level programming logic, documenting my technical evolution through systematic research and implementation.
+I am currently building my foundation in **Node.js** and programming logic, documenting my technical evolution through systematic exploration and implementation.
 
 ---
 
