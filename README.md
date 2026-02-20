@@ -25,8 +25,8 @@ I operate an advanced agentic environment designed for maximum developer product
 
 | Category | Technologies |
 | :------- | :----------- |
-| **Languages & Runtime** | JavaScript (ES6+), Node.js (v24 LTS) |
-| **Backend Frameworks** | Express.js, Clean Architecture principles |
+| **Languages & Runtime** | JavaScript (ES6+), TypeScript, Node.js (v24 LTS) |
+| **Backend Frameworks** | Express.js, Clean Architecture, [Foundations](https://github.com/Allysson-Rodrigues/backend-ts-foundations) |
 | **Databases** | MySQL, SQLite |
 | **Infrastructure** | Docker, Linux (CLI optimized), Git |
 
