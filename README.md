@@ -38,7 +38,7 @@ I operate an advanced agentic environment designed for maximum developer product
 
 ### Featured Work
 
-#### [TradingView Indicators](https://github.com/Allysson-Rodrigues/Tradingview-indicators)
+#### [TradingView Indicator](https://github.com/Allysson-Rodrigues/tradingview-indicator)
 Custom technical analysis tools developed using Pine Script. This repository serves as a laboratory for logical automation and algorithmic reasoning applied to market data.
 
 ---
@@ -52,5 +52,3 @@ Custom technical analysis tools developed using Pine Script. This repository ser
 
 ### Connectivity
 [Google Developer Profile](https://g.dev/AllyssonRodrigues) | [X (Twitter)](https://x.com/AllyssonRodriig)
-
-![Snake animation](https://github.com/Allysson-Rodrigues/Allysson-Rodrigues/blob/output/github-contribution-grid-snake.svg)
