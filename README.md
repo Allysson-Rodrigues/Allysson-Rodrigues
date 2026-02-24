@@ -64,6 +64,8 @@ What I use these for:
   `https://github.com/Allysson-Rodrigues/clean-express-api`
 - **Backend TS Foundations**: fundamentals and disciplined practice  
   `https://github.com/Allysson-Rodrigues/backend-ts-foundations`
+- **Petshop Platform (WIP)**: full-stack practice project (auth, payments, observability, DB policies)  
+  `https://github.com/Allysson-Rodrigues/petshop-small-breeds`
 - **TradingView Indicator**: Pine Script automation lab  
   `https://github.com/Allysson-Rodrigues/tradingview-indicator`
 
