@@ -30,6 +30,7 @@ I use an agentic workspace to accelerate research and implementation while keepi
 ## MCP Stack (Current)
 <p>
   <img alt="Supabase" src="https://img.shields.io/badge/Supabase-MCP-3FCF8E?style=flat&logo=supabase&logoColor=white" />
+  <img alt="TestSprite" src="https://img.shields.io/badge/TestSprite-MCP-6B7280?style=flat" />
   <img alt="Stripe" src="https://img.shields.io/badge/Stripe-MCP-635BFF?style=flat&logo=stripe&logoColor=white" />
   <img alt="Sentry" src="https://img.shields.io/badge/Sentry-MCP-362D59?style=flat&logo=sentry&logoColor=white" />
   <img alt="Clerk" src="https://img.shields.io/badge/Clerk-MCP-000000?style=flat&logo=clerk&logoColor=white" />
@@ -56,6 +57,11 @@ What I use these for:
 <div align="left">
   <img src="https://skillicons.dev/icons?i=ts,nodejs,express,postgres,mysql,docker,linux,git,github" />
 </div>
+
+<p>
+  <img alt="Codex" src="https://img.shields.io/badge/Codex-CLI-111827?style=flat" />
+  <img alt="Antigravity (Google)" src="https://img.shields.io/badge/Antigravity-Google-4285F4?style=flat&logo=google&logoColor=white" />
+</p>
 
 ---
 
