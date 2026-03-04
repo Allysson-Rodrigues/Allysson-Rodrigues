@@ -21,6 +21,8 @@ I’m building my backend foundations and learning end‑to‑end delivery (auth
 ## Agentic Tooling (Codex + Antigravity)
 I use an agentic workspace to accelerate research and implementation while keeping a high bar on safety and reproducibility.
 
+I optimize for fast, safe iteration: clear API contracts, automated checks, and observability-driven debugging.
+
 - **Codex CLI**: CLI-first workflows, project automation, local validation.
 - **Antigravity**: focused agent sessions, modular rules/workflows, research loops.
 - **Model Context Protocol (MCP)**: connect tools and systems safely via scoped servers.
@@ -75,21 +77,17 @@ What I use these for:
 ---
 
 ## Featured Work
-- **Clean Express API (TS)**: architecture-first API patterns, validation, contracts  
-  `https://github.com/Allysson-Rodrigues/clean-express-api`
-- **Backend TS Foundations**: fundamentals and disciplined practice  
-  `https://github.com/Allysson-Rodrigues/backend-ts-foundations`
-- **Petshop Platform (WIP)**: full-stack practice project (auth, payments, observability, DB policies)  
-  `https://github.com/Allysson-Rodrigues/petshop-small-breeds`
-- **TradingView Indicator**: Pine Script automation lab  
-  `https://github.com/Allysson-Rodrigues/tradingview-indicator`
+- [Clean Express API (TS)](https://github.com/Allysson-Rodrigues/clean-express-api) — architecture-first API patterns (validation, contracts).
+- [Backend TS Foundations](https://github.com/Allysson-Rodrigues/backend-ts-foundations) — fundamentals and disciplined practice.
+- [Petshop Platform (WIP)](https://github.com/Allysson-Rodrigues/petshop-small-breeds) — full-stack practice (auth, payments, observability, DB policies).
+- [TradingView Indicator](https://github.com/Allysson-Rodrigues/tradingview-indicator) — Pine Script automation lab.
 
 ---
 
 ## Roadmap (2026)
-- Solid full-stack delivery: auth + payments + observability + DB security.
-- API quality: testing, error contracts, performance, secure defaults.
-- Repeatable workflows: MCP-assisted debugging and scaffolding with guardrails.
+- Ship a full-stack MVP with auth, payments, observability, and secure DB defaults (RLS).
+- Publish an API quality baseline: OpenAPI, contract tests, error model, performance budget.
+- Harden delivery workflows: CI checks, reproducible local setup, release routines.
 
 ---
 
