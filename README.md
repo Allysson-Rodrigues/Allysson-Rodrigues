@@ -55,8 +55,8 @@ What I use these for:
 | Category | Technologies |
 | :------- | :----------- |
 | **Languages & Runtime** | JavaScript (ES6+), TypeScript, Node.js |
-| **Backend** | Express.js, Clean Architecture patterns |
-| **Databases** | MySQL, SQLite (and learning Postgres) |
+| **Backend** | Express.js, REST APIs, Clean Architecture |
+| **Databases** | MySQL, SQLite, PostgreSQL (learning) |
 | **Infra** | Docker, Linux CLI, Git |
 
 <p>
