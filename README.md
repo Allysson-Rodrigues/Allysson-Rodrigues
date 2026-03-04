@@ -39,6 +39,7 @@ I use an agentic workspace to accelerate research and implementation while keepi
 
 What I use these for:
 - **Supabase**: schema + RLS patterns, local-to-prod iteration, storage.
+- **TestSprite**: automated test flows, CI-friendly runs, coverage signals.
 - **Stripe**: test-mode checkout flows, webhooks, payments lifecycle.
 - **Sentry**: production debugging workflows (issues → events → fix plan).
 - **Clerk**: quickstarts/snippets for modern auth providers and app frameworks.
@@ -54,9 +55,17 @@ What I use these for:
 | **Databases** | MySQL, SQLite (and learning Postgres) |
 | **Infra** | Docker, Linux CLI, Git |
 
-<div align="left">
-  <img src="https://skillicons.dev/icons?i=ts,nodejs,express,postgres,mysql,docker,linux,git,github" />
-</div>
+<p>
+  <img alt="TypeScript" src="https://img.shields.io/static/v1?label=TypeScript&message=%20&color=3178C6&style=flat&logo=typescript&logoColor=white" />
+  <img alt="Node.js" src="https://img.shields.io/static/v1?label=Node.js&message=%20&color=339933&style=flat&logo=nodedotjs&logoColor=white" />
+  <img alt="Express" src="https://img.shields.io/static/v1?label=Express&message=%20&color=111827&style=flat&logo=express&logoColor=white" />
+  <img alt="PostgreSQL" src="https://img.shields.io/static/v1?label=PostgreSQL&message=%20&color=4169E1&style=flat&logo=postgresql&logoColor=white" />
+  <img alt="MySQL" src="https://img.shields.io/static/v1?label=MySQL&message=%20&color=4479A1&style=flat&logo=mysql&logoColor=white" />
+  <img alt="Docker" src="https://img.shields.io/static/v1?label=Docker&message=%20&color=2496ED&style=flat&logo=docker&logoColor=white" />
+  <img alt="Linux" src="https://img.shields.io/static/v1?label=Linux&message=%20&color=FCC624&style=flat&logo=linux&logoColor=111827" />
+  <img alt="Git" src="https://img.shields.io/static/v1?label=Git&message=%20&color=F05032&style=flat&logo=git&logoColor=white" />
+  <img alt="GitHub" src="https://img.shields.io/static/v1?label=GitHub&message=%20&color=181717&style=flat&logo=github&logoColor=white" />
+</p>
 
 <p>
   <img alt="Codex" src="https://img.shields.io/badge/Codex-CLI-111827?style=flat" />
@@ -85,4 +94,11 @@ What I use these for:
 ---
 
 ## Links
-`https://g.dev/AllyssonRodrigues` • `https://x.com/AllyssonRodriig`
+<p>
+  <a href="https://g.dev/AllyssonRodrigues">
+    <img alt="Google Dev" src="https://img.shields.io/badge/g.dev-AllyssonRodrigues-4285F4?style=flat&logo=google&logoColor=white" />
+  </a>
+  <a href="https://x.com/AllyssonRodriig">
+    <img alt="X" src="https://img.shields.io/badge/X-@AllyssonRodriig-111827?style=flat&logo=x&logoColor=white" />
+  </a>
+</p>
