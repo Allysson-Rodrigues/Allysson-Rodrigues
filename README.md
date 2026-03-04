@@ -24,6 +24,8 @@ I use an agentic workspace to accelerate research and implementation while keepi
 I optimize for fast, safe iteration: clear API contracts, automated checks, and observability-driven debugging.
 
 - **Codex CLI**: CLI-first workflows, project automation, local validation.
+- **OpenAI Codex (Windows app)**: desktop app for structured coding sessions and project workflows.
+- **Gemini CLI**: terminal-first AI assistance for research, code iteration, and productivity tasks.
 - **Antigravity**: focused agent sessions, modular rules/workflows, research loops.
 - **Model Context Protocol (MCP)**: connect tools and systems safely via scoped servers.
 
