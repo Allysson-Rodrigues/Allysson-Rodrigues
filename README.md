@@ -23,11 +23,11 @@ I use an agentic workspace to accelerate research and implementation while keepi
 
 I optimize for fast, safe iteration: clear API contracts, automated checks, and observability-driven debugging.
 
-- **Codex CLI**: CLI-first workflows, project automation, local validation.
-- **OpenAI Codex (Windows app)**: desktop app for structured coding sessions and project workflows.
-- **Gemini CLI**: terminal-first AI assistance for research, code iteration, and productivity tasks.
-- **Antigravity**: focused agent sessions, modular rules/workflows, research loops.
-- **Model Context Protocol (MCP)**: connect tools and systems safely via scoped servers.
+- **Codex CLI** ([npm](https://www.npmjs.com/package/%40openai/codex), [overview](https://openai.com/codex/)): CLI-first workflows, project automation, local validation.
+- **OpenAI Codex (Windows app)** ([release](https://openai.com/index/introducing-the-codex-app/)): desktop app for structured coding sessions and project workflows.
+- **Gemini CLI** ([docs](https://developers.google.com/gemini-code-assist/docs/gemini-cli), [repo](https://github.com/google-gemini/gemini-cli)): terminal-first AI assistance for research, code iteration, and productivity tasks.
+- **Google Antigravity** ([announcement](https://developers.googleblog.com/build-with-google-antigravity-our-new-agentic-development-platform/), [download](https://antigravity.google/download)): focused agent sessions, modular rules/workflows, research loops.
+- **Model Context Protocol (MCP)** ([spec](https://modelcontextprotocol.io/specification/)): connect tools and systems safely via scoped servers.
 
 ---
 
@@ -69,9 +69,9 @@ What I use these for:
 ---
 
 ## Featured Work
-- [Clean Express API (TS)](https://github.com/Allysson-Rodrigues/clean-express-api) — architecture-first API patterns (validation, contracts).
-- [Backend TS Foundations](https://github.com/Allysson-Rodrigues/backend-ts-foundations) — fundamentals and disciplined practice.
-- [Petshop Platform (WIP)](https://github.com/Allysson-Rodrigues/petshop-small-breeds) — full-stack practice (auth, payments, observability, DB policies).
+- [Clean Express API (TS)](https://github.com/Allysson-Rodrigues/clean-express-api) — architecture-first API patterns (request validation, consistent error contracts).
+- [Backend TS Foundations](https://github.com/Allysson-Rodrigues/backend-ts-foundations) — TypeScript + Node.js fundamentals through disciplined practice.
+- [Petshop Platform (WIP)](https://github.com/Allysson-Rodrigues/petshop-small-breeds) — full-stack practice (auth, payments, observability, DB policies) as the product evolves.
 - [TradingView Indicator](https://github.com/Allysson-Rodrigues/tradingview-indicator) — Pine Script automation lab.
 
 ---
@@ -87,6 +87,9 @@ What I use these for:
 <p>
   <a href="https://g.dev/AllyssonRodrigues">
     <img alt="Google Dev" src="https://img.shields.io/badge/g.dev-AllyssonRodrigues-4285F4?style=flat&logo=google&logoColor=white" />
+  </a>
+  <a href="mailto:alissonrodriig@gmail.com">
+    <img alt="Email" src="https://img.shields.io/badge/Email-alissonrodriig%40gmail.com-EA4335?style=flat&logo=gmail&logoColor=white" />
   </a>
   <a href="https://x.com/AllyssonRodriig">
     <img alt="X" src="https://img.shields.io/badge/X-@AllyssonRodriig-111827?style=flat&logo=x&logoColor=white" />
