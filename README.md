@@ -14,16 +14,32 @@ I’m building my backend foundations and learning end‑to‑end delivery (auth
 ## Engineering Philosophy
 - Efficiency is a product of restriction: clear constraints produce better architectures.
 - Prefer explicit contracts: predictable errors, stable interfaces, measurable behavior.
-- Automate the boring parts: repeatable workflows beat heroic debugging.
+- Prefer repeatable workflows: boring checks should be easy, explicit, and reproducible.
 
 ---
 
-## Agentic Tooling (Codex + Antigravity)
-I use an agentic workspace to accelerate research and implementation while keeping a high bar on safety and reproducibility.
+## AI Workflow (Gemini CLI + Codex CLI + Antigravity)
+I run **Gemini CLI** and **Codex CLI** in parallel for faster iteration, and use **Antigravity agents** when a task benefits from specialized roles (planning, debugging, QA, security).
 
-I optimize for fast, safe iteration: clear API contracts, automated checks, and observability-driven debugging.
+I optimize for fast, safe iteration: clear API contracts, explicit validation, and observability-driven debugging.
 
-- **Codex CLI** ([npm](https://www.npmjs.com/package/%40openai/codex), [overview](https://openai.com/codex/)): CLI-first workflows, project automation, local validation.
+### Tool roles (how I split work)
+
+| Tool | Best for | Guardrails |
+| --- | --- | --- |
+| **Gemini CLI** | Research, quick exploration, alternative approaches, writing drafts | Treat as input; verify claims; avoid copying large chunks of external text |
+| **Codex CLI** | Editing code, refactors, running checks/tests, producing focused diffs | Manual-first execution: nothing changes without an explicit command |
+| **Antigravity** | Structured sessions, agent selection, repeatable workflows | Keep a single source of truth for rules; use only what the task needs |
+| **MCP** | Connecting tools safely via scoped servers | No secrets; least-privilege; explicit boundaries |
+
+### Parallel loop (typical)
+1) Use Gemini CLI to explore options and constraints.
+2) Use Codex CLI to implement small, reviewable changes.
+3) Use an Antigravity agent for a targeted pass (QA/security/perf) when it makes sense.
+4) Run explicit validation (tests/lint/build) and capture risks/tradeoffs in the final summary.
+
+### Tooling links
+- **Codex CLI** ([npm](https://www.npmjs.com/package/%40openai/codex), [overview](https://openai.com/codex/)): CLI-first workflows, code editing, local validation.
 - **OpenAI Codex (Windows app)** ([release](https://openai.com/index/introducing-the-codex-app/)): desktop app for structured coding sessions and project workflows.
 - **Gemini CLI** ([docs](https://developers.google.com/gemini-code-assist/docs/gemini-cli), [repo](https://github.com/google-gemini/gemini-cli)): terminal-first AI assistance for research, code iteration, and productivity tasks.
 - **Google Antigravity** ([announcement](https://developers.googleblog.com/build-with-google-antigravity-our-new-agentic-development-platform/), [download](https://antigravity.google/download)): focused agent sessions, modular rules/workflows, research loops.
@@ -41,7 +57,7 @@ I optimize for fast, safe iteration: clear API contracts, automated checks, and 
   <img alt="Gemini" src="https://img.shields.io/badge/Gemini-MCP-4285F4?style=flat&logo=google&logoColor=white" />
 </p>
 
-What I use these for:
+What I use these for (examples):
 - **Supabase**: schema + RLS patterns, local-to-prod iteration, storage.
 - **TestSprite**: automated test flows, CI-friendly runs, coverage signals.
 - **Stripe**: test-mode checkout flows, webhooks, payments lifecycle.
