@@ -1,53 +1,51 @@
 # Allysson Rodrigues
-**Backend-focused student (learning full-stack)**
+**Backend-first builder exploring full-stack delivery**
 
 <p>
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Inter&size=16&duration=3000&pause=600&color=6B7280&vCenter=true&width=700&lines=Shipping+reliable+APIs+with+clear+contracts;Auth%2C+payments%2C+observability%2C+DB+policies;Building+an+agentic+workflow+with+MCP+tools" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Inter&size=16&duration=3000&pause=600&color=6B7280&vCenter=true&width=760&lines=Reliable+APIs+with+explicit+contracts;Auth%2C+observability%2C+deployment%2C+DB+policies;AI-assisted+workflows+with+Codex%2C+Gemini%2C+and+MCP" alt="Typing SVG" />
   </a>
 </p>
 
-I’m building my backend foundations and learning end‑to‑end delivery (auth, payments, observability, database security) with an honest “learn fast, ship safely” approach.
+I build my backend foundations in public and treat delivery as a system: clear contracts, safe defaults, reproducible workflows, and pragmatic automation. My current focus is Node.js, TypeScript, API architecture, and AI-assisted developer tooling.
 
 ---
 
 ## Engineering Philosophy
-- Efficiency is a product of restriction: clear constraints produce better architectures.
-- Prefer explicit contracts: predictable errors, stable interfaces, measurable behavior.
-- Prefer repeatable workflows: boring checks should be easy, explicit, and reproducible.
+- Constraints improve design. Clear boundaries usually produce better systems.
+- Explicit contracts beat implicit behavior. Errors, interfaces, and validation should be predictable.
+- Reliable delivery depends on repeatable workflows. Checks should be easy to run and hard to skip.
 
 ---
 
-## AI Workflow (Gemini CLI + Codex CLI + Antigravity)
-I run **Gemini CLI** and **Codex CLI** in parallel for faster iteration, and use **Antigravity agents** when a task benefits from specialized roles (planning, debugging, QA, security).
+## AI Workflow
+I use AI tools as part of a disciplined engineering loop, not as a replacement for verification. The goal is faster iteration with explicit validation, focused diffs, and lower operational risk.
 
-I optimize for fast, safe iteration: clear API contracts, explicit validation, and observability-driven debugging.
-
-### Tool roles (how I split work)
+### Tool roles
 
 | Tool | Best for | Guardrails |
 | --- | --- | --- |
-| **Gemini CLI** | Research, quick exploration, alternative approaches, writing drafts | Treat as input; verify claims; avoid copying large chunks of external text |
-| **Codex CLI** | Editing code, refactors, running checks/tests, producing focused diffs | Manual-first execution: nothing changes without an explicit command |
-| **Antigravity** | Structured sessions, agent selection, repeatable workflows | Keep a single source of truth for rules; use only what the task needs |
-| **MCP** | Connecting tools safely via scoped servers | No secrets; least-privilege; explicit boundaries |
+| **Gemini CLI** | Research, exploration, alternative approaches, first-pass drafts | Treat outputs as input, verify claims, avoid copy-paste from external sources |
+| **Codex CLI** | Code changes, refactors, local checks, focused implementation | Manual-first workflow, explicit commands, small reviewable diffs |
+| **Antigravity** | Structured sessions, scoped agents, targeted task decomposition | Keep a single source of truth, use only what the task needs |
+| **MCP** | Safe connections between tools, services, and project context | Least privilege, explicit boundaries, no unnecessary secret exposure |
 
-### Parallel loop (typical)
-1) Use Gemini CLI to explore options and constraints.
-2) Use Codex CLI to implement small, reviewable changes.
-3) Use an Antigravity agent for a targeted pass (QA/security/perf) when it makes sense.
-4) Run explicit validation (tests/lint/build) and capture risks/tradeoffs in the final summary.
+### Typical loop
+1. Explore the problem space with Gemini CLI.
+2. Implement and validate with Codex CLI.
+3. Use Antigravity when a task benefits from a specialized pass such as QA, debugging, or security review.
+4. Close with explicit checks and a concrete summary of tradeoffs or remaining risks.
 
 ### Tooling links
-- **Codex CLI** ([npm](https://www.npmjs.com/package/%40openai/codex), [overview](https://openai.com/codex/)): CLI-first workflows, code editing, local validation.
-- **OpenAI Codex (Windows app)** ([release](https://openai.com/index/introducing-the-codex-app/)): desktop app for structured coding sessions and project workflows.
-- **Gemini CLI** ([docs](https://developers.google.com/gemini-code-assist/docs/gemini-cli), [repo](https://github.com/google-gemini/gemini-cli)): terminal-first AI assistance for research, code iteration, and productivity tasks.
-- **Google Antigravity** ([announcement](https://developers.googleblog.com/build-with-google-antigravity-our-new-agentic-development-platform/), [download](https://antigravity.google/download)): focused agent sessions, modular rules/workflows, research loops.
-- **Model Context Protocol (MCP)** ([spec](https://modelcontextprotocol.io/specification/)): connect tools and systems safely via scoped servers.
+- **Codex CLI** ([npm](https://www.npmjs.com/package/%40openai/codex), [overview](https://openai.com/codex/)) - local coding workflows, focused edits, and validation loops.
+- **OpenAI Codex app** ([release](https://openai.com/index/introducing-the-codex-app/)) - structured coding sessions and project-oriented workflows.
+- **Gemini CLI** ([docs](https://developers.google.com/gemini-code-assist/docs/gemini-cli), [repo](https://github.com/google-gemini/gemini-cli)) - terminal-first assistance for research, code iteration, and productivity.
+- **Google Antigravity** ([announcement](https://developers.googleblog.com/build-with-google-antigravity-our-new-agentic-development-platform/), [download](https://antigravity.google/download)) - modular agent workflows and scoped sessions.
+- **Model Context Protocol (MCP)** ([spec](https://modelcontextprotocol.io/specification/)) - safe, scoped tool connectivity across systems.
 
 ---
 
-## MCP Stack (Current)
+## MCP Stack
 <p>
   <img alt="Supabase" src="https://img.shields.io/badge/Supabase-MCP-3FCF8E?style=flat&logo=supabase&logoColor=white" />
   <img alt="TestSprite" src="https://img.shields.io/badge/TestSprite-MCP-6B7280?style=flat" />
@@ -57,12 +55,12 @@ I optimize for fast, safe iteration: clear API contracts, explicit validation, a
   <img alt="Gemini" src="https://img.shields.io/badge/Gemini-MCP-4285F4?style=flat&logo=google&logoColor=white" />
 </p>
 
-What I use these for (examples):
-- **Supabase**: schema + RLS patterns, local-to-prod iteration, storage.
-- **TestSprite**: automated test flows, CI-friendly runs, coverage signals.
-- **Stripe**: test-mode checkout flows, webhooks, payments lifecycle.
-- **Sentry**: production debugging workflows (issues → events → fix plan).
-- **Clerk**: quickstarts/snippets for modern auth providers and app frameworks.
+What I use these for:
+- **Supabase** - schema iteration, RLS patterns, storage workflows, and local-to-prod feedback loops.
+- **TestSprite** - automated test flows, CI-friendly validation, and coverage signals.
+- **Stripe** - payment lifecycle experiments, webhooks, and test-mode checkout flows.
+- **Sentry** - production debugging loops from issue to event to fix plan.
+- **Clerk** - auth quickstarts and modern identity patterns across app frameworks.
 
 ---
 
@@ -72,30 +70,32 @@ What I use these for (examples):
 | :------- | :----------- |
 | **Languages & Runtime** | JavaScript (ES6+), TypeScript, Node.js |
 | **Backend** | Express.js, REST APIs, Clean Architecture |
-| **Databases** | MySQL, SQLite, PostgreSQL (learning) |
-| **Infra** | Docker, Linux CLI, Git |
+| **Databases** | SQLite, PostgreSQL, Prisma |
+| **Infra & Delivery** | Docker, Linux CLI, Git, GitHub, Vercel |
 
 <p>
   <img alt="Docker" src="https://img.shields.io/static/v1?label=Docker&message=%20&color=2496ED&style=flat&logo=docker&logoColor=white" />
   <img alt="Linux" src="https://img.shields.io/static/v1?label=Linux&message=%20&color=FCC624&style=flat&logo=linux&logoColor=111827" />
   <img alt="Git" src="https://img.shields.io/static/v1?label=Git&message=%20&color=F05032&style=flat&logo=git&logoColor=white" />
   <img alt="GitHub" src="https://img.shields.io/static/v1?label=GitHub&message=%20&color=181717&style=flat&logo=github&logoColor=white" />
+  <img alt="Vercel" src="https://img.shields.io/static/v1?label=Vercel&message=%20&color=000000&style=flat&logo=vercel&logoColor=white" />
 </p>
 
 ---
 
 ## Featured Work
-- [Clean Express API (TS)](https://github.com/Allysson-Rodrigues/clean-express-api) — architecture-first API patterns (request validation, consistent error contracts).
-- [Backend TS Foundations](https://github.com/Allysson-Rodrigues/backend-ts-foundations) — TypeScript + Node.js fundamentals through disciplined practice.
-- [Petshop Platform (WIP)](https://github.com/Allysson-Rodrigues/petshop-small-breeds) — full-stack practice (auth, payments, observability, DB policies) as the product evolves.
-- [TradingView Indicator](https://github.com/Allysson-Rodrigues/tradingview-indicator) — Pine Script automation lab.
+- [Petshop Small Breeds Premium](https://github.com/Allysson-Rodrigues/petshop-small-breeds-premium) - full-stack practice with admin dashboard, auth flows, booking requests, and Vercel deployment.
+- [Voice Note AI](https://github.com/Allysson-Rodrigues/voice-note-ai) - Windows-first dictation app with Azure Speech-to-Text, safe text injection, and adaptive suggestions.
+- [Clean Express API](https://github.com/Allysson-Rodrigues/clean-express-api) - architecture-first API patterns with validation, consistent errors, and TypeScript-first structure.
+- [Backend TS Foundations](https://github.com/Allysson-Rodrigues/backend-ts-foundations) - disciplined Node.js and TypeScript practice with a focus on consistency and delivery basics.
+- [TradingView Indicator](https://github.com/Allysson-Rodrigues/tradingview-indicator) - Pine Script experiments for structured technical analysis and trading automation.
 
 ---
 
 ## Roadmap (2026)
-- Ship a full-stack MVP with auth, payments, observability, and secure DB defaults (RLS).
-- Publish an API quality baseline: OpenAPI, contract tests, error model, performance budget.
-- Harden delivery workflows: CI checks, reproducible local setup, release routines.
+- Ship stronger end-to-end projects with auth, observability, deployment discipline, and secure backend defaults.
+- Publish better API baselines with contract clarity, validation, and operational guardrails.
+- Keep improving AI-assisted workflows without relaxing verification quality.
 
 ---
 
