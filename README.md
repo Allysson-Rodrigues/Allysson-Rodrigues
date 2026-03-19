@@ -69,6 +69,7 @@ What I use these for:
 | Category | Technologies |
 | :------- | :----------- |
 | **Languages & Runtime** | JavaScript (ES6+), TypeScript, Node.js |
+| **Frontend** | React, Next.js, Tailwind CSS, shadcn/ui |
 | **Backend** | Express.js, REST APIs, Clean Architecture |
 | **Databases** | SQLite, PostgreSQL, Prisma |
 | **Infra & Delivery** | Docker, Linux CLI, Git, GitHub, Vercel |
@@ -96,6 +97,28 @@ What I use these for:
 - Ship stronger end-to-end projects with auth, observability, deployment discipline, and secure backend defaults.
 - Publish better API baselines with contract clarity, validation, and operational guardrails.
 - Keep improving AI-assisted workflows without relaxing verification quality.
+
+---
+
+
+## Workspace Snapshot
+
+A live view of my current local workspace architecture, optimized for agentic development:
+
+```text
+projetos/
+├── 01-projetos/        # Active projects (frontend & backend apps)
+├── 02-pacotes/         # Shared packages (e.g., shadcn-ui-kit)
+├── 03-playground/      # Sandboxes and experiments
+├── 04-docs/            # Global documentation and ADRs
+├── 06-scripts/         # Workspace automation and CLI tooling
+├── 07-github/          # Local clones of key repositories
+├── 08-operacional/     # Backups, artifacts, and operational logs
+├── .agent/             # Antigravity/Gemini CLI agent rules and workflows
+├── mcp-servers/        # Local Model Context Protocol servers
+├── tasks/              # Active sprint, lessons, and progress tracking
+└── tests/              # End-to-end and governance testing
+```
 
 ---
 
