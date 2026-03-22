@@ -108,16 +108,18 @@ A live view of my current local workspace architecture, optimized for agentic de
 ```text
 projetos/
 ├── 01-projetos/        # Active projects (frontend & backend apps)
-├── 02-pacotes/         # Shared packages (e.g., shadcn-ui-kit)
+├── 02-pacotes/         # Shared packages (e.g., UI kits, libraries)
 ├── 03-playground/      # Sandboxes and experiments
-├── 04-docs/            # Global documentation and ADRs
+├── 04-docs/            # Auxiliary or legacy material
+├── 05-arquivo/         # Historical, paused, and temporary material
 ├── 06-scripts/         # Workspace automation and CLI tooling
-├── 07-github/          # Local clones of key repositories
+├── 07-github/          # Local mirror of external repositories
 ├── 08-operacional/     # Backups, artifacts, and operational logs
-├── .agent/             # Antigravity/Gemini CLI agent rules and workflows
-├── mcp-servers/        # Local Model Context Protocol servers
+├── docs/               # Canonical documentation hub
+├── tests/              # End-to-end and governance testing
 ├── tasks/              # Active sprint, lessons, and progress tracking
-└── tests/              # End-to-end and governance testing
+├── .agent/             # Antigravity/Gemini CLI agent rules and workflows
+└── mcp-servers/        # Local Model Context Protocol servers
 ```
 
 ---
