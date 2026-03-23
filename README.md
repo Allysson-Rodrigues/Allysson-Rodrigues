@@ -3,7 +3,7 @@
 
 <p>
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Inter&size=16&duration=3000&pause=600&color=6B7280&vCenter=true&width=760&lines=Reliable+APIs+with+explicit+contracts;Auth%2C+observability%2C+deployment%2C+DB+policies;AI-assisted+workflows+with+Codex%2C+Gemini%2C+and+MCP" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Inter&size=16&duration=3000&pause=600&color=6B7280&vCenter=true&width=840&lines=Reliable+APIs+with+explicit+contracts;Auth%2C+observability%2C+deployment%2C+DB+policies;AI-assisted+workflows+with+Claude%2C+Codex%2C+Gemini%2C+and+MCP" alt="Typing SVG" />
   </a>
 </p>
 
@@ -26,17 +26,20 @@ I use AI tools as part of a disciplined engineering loop, not as a replacement f
 | Tool | Best for | Guardrails |
 | --- | --- | --- |
 | **Gemini CLI** | Research, exploration, alternative approaches, first-pass drafts | Treat outputs as input, verify claims, avoid copy-paste from external sources |
+| **Claude Code & Ext.**| Deep reasoning, complex refactors, and architectural context | Verify logic steps, review before large diffs, enforce strict context boundaries |
 | **Codex CLI** | Code changes, refactors, local checks, focused implementation | Manual-first workflow, explicit commands, small reviewable diffs |
 | **Antigravity** | Structured sessions, scoped agents, targeted task decomposition | Keep a single source of truth, use only what the task needs |
 | **MCP** | Safe connections between tools, services, and project context | Least privilege, explicit boundaries, no unnecessary secret exposure |
 
 ### Typical loop
 1. Explore the problem space with Gemini CLI.
-2. Implement and validate with Codex CLI.
-3. Use Antigravity when a task benefits from a specialized pass such as QA, debugging, or security review.
-4. Close with explicit checks and a concrete summary of tradeoffs or remaining risks.
+2. Plan and execute complex structural changes or deep reasoning tasks with Claude Code CLI or the VS Code Extension.
+3. Implement iteratively and validate with Codex CLI.
+4. Use Antigravity when a task benefits from a specialized pass such as QA, debugging, or security review.
+5. Close with explicit checks and a concrete summary of tradeoffs or remaining risks.
 
 ### Tooling links
+- **Claude Code** ([docs](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview)) - deep reasoning workflows, agentic loop assistance, and complex codebase modifications.
 - **Codex CLI** ([npm](https://www.npmjs.com/package/%40openai/codex), [overview](https://openai.com/codex/)) - local coding workflows, focused edits, and validation loops.
 - **OpenAI Codex app** ([release](https://openai.com/index/introducing-the-codex-app/)) - structured coding sessions and project-oriented workflows.
 - **Gemini CLI** ([docs](https://developers.google.com/gemini-code-assist/docs/gemini-cli), [repo](https://github.com/google-gemini/gemini-cli)) - terminal-first assistance for research, code iteration, and productivity.
@@ -118,7 +121,7 @@ projetos/
 ├── docs/               # Canonical documentation hub
 ├── tests/              # End-to-end and governance testing
 ├── tasks/              # Active sprint, lessons, and progress tracking
-├── .agent/             # Antigravity/Gemini CLI agent rules and workflows
+├── .agent/             # Agent rules and workflows (Antigravity/Gemini/Claude)
 └── mcp-servers/        # Local Model Context Protocol servers
 ```
 
