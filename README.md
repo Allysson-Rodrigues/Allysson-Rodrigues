@@ -32,11 +32,11 @@ I use AI tools as part of a disciplined engineering loop, not as a replacement f
 | **MCP** | Safe connections between tools, services, and project context | Least privilege, explicit boundaries, no unnecessary secret exposure |
 
 ### Typical loop
-1. Explore the problem space with Gemini CLI.
-2. Plan and execute complex structural changes or deep reasoning tasks with Claude Code CLI or the VS Code Extension.
-3. Implement iteratively and validate with Codex CLI.
-4. Use Antigravity when a task benefits from a specialized pass such as QA, debugging, or security review.
-5. Close with explicit checks and a concrete summary of tradeoffs or remaining risks.
+1. **Flows first**: Initialize workspace rules and context using explicit scripts (`06-scripts/`).
+2. **Test-Driven Planning (TDP)**: Explore the problem space and draft the structural proof plan with **Gemini CLI (Plan Mode)** for a "Human-in-the-Loop" block.
+3. **Execution**: Post-plan, implement iteratively and validate via **Codex** (CLI/VS Code) or the **native IDE**.
+4. **Specialists**: Call **Antigravity** or **Claude Code** when a task benefits from deep reasoning, QA, debugging, or a specialized multi-agent pass.
+5. **Close**: Run explicit checks, require adversarial review if risky, and finalize with a concrete summary of tradeoffs.
 
 ### Tooling links
 - **Claude Code** ([docs](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview)) - deep reasoning workflows, agentic loop assistance, and complex codebase modifications.
@@ -121,6 +121,8 @@ projetos/
 ├── docs/               # Canonical documentation hub
 ├── tests/              # End-to-end and governance testing
 ├── tasks/              # Active sprint, lessons, and progress tracking
+├── plans/              # Transient implementation plans (TDP mode)
+├── skills/             # Antigravity/Agent extensions and specific toolsets
 ├── .agent/             # Agent rules and workflows (Antigravity/Gemini/Claude)
 └── mcp-servers/        # Local Model Context Protocol servers
 ```
