@@ -1,4 +1,4 @@
-﻿# Allysson Rodrigues
+# Allysson Rodrigues
 **Backend-first builder | Systems Development at SENAI PR**
 
 <p>
@@ -110,21 +110,21 @@ A live view of my current local workspace architecture, optimized for agentic de
 
 ```text
 projetos/
-â”œâ”€â”€ 01-projetos/        # Active projects (frontend & backend apps)
-â”œâ”€â”€ 02-pacotes/         # Shared packages (e.g., UI kits, libraries)
-â”œâ”€â”€ 03-playground/      # Sandboxes and experiments
-â”œâ”€â”€ 04-docs/            # Auxiliary or legacy material
-â”œâ”€â”€ 05-arquivo/         # Historical, paused, and temporary material
-â”œâ”€â”€ 06-scripts/         # Workspace automation and CLI tooling
-â”œâ”€â”€ 07-github/          # Local mirror of external repositories
-â”œâ”€â”€ 08-operacional/     # Backups, artifacts, and operational logs
-â”œâ”€â”€ docs/               # Canonical documentation hub
-â”œâ”€â”€ tests/              # End-to-end and governance testing
-â”œâ”€â”€ tasks/              # Active sprint, lessons, and progress tracking
-â”œâ”€â”€ plans/              # Transient implementation plans (TDP mode)
-â”œâ”€â”€ skills/             # Antigravity/Agent extensions and specific toolsets
-â”œâ”€â”€ .agent/             # Agent rules and workflows (Antigravity/Gemini/Claude)
-â””â”€â”€ mcp-servers/        # Local Model Context Protocol servers
+├── 01-projetos/        # Active projects (frontend & backend apps)
+├── 02-pacotes/         # Shared packages (e.g., UI kits, libraries)
+├── 03-playground/      # Sandboxes and experiments
+├── 04-docs/            # Auxiliary or legacy material
+├── 05-arquivo/         # Historical, paused, and temporary material
+├── 06-scripts/         # Workspace automation and CLI tooling
+├── 07-github/          # Local mirror of external repositories
+├── 08-operacional/     # Backups, artifacts, and operational logs
+├── docs/               # Canonical documentation hub
+├── tests/              # End-to-end and governance testing
+├── tasks/              # Active sprint, lessons, and progress tracking
+├── plans/              # Transient implementation plans (TDP mode)
+├── skills/             # Antigravity/Agent extensions and specific toolsets
+├── .agent/             # Agent rules and workflows (Antigravity/Gemini/Claude)
+└── mcp-servers/        # Local Model Context Protocol servers
 ```
 
 ---
