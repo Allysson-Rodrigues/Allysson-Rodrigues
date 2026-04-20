@@ -1,8 +1,8 @@
 # Allysson Rodrigues
 
-[![Focus: Backend Systems](https://img.shields.io/badge/Focus-Backend%20Systems-0F172A?style=flat-square)](#)
-[![Discipline: API Architecture](https://img.shields.io/badge/Discipline-API%20Architecture-334155?style=flat-square)](#)
-[![Mode: AI-Assisted Workflows](https://img.shields.io/badge/Mode-AI--Assisted%20Workflows-0F766E?style=flat-square)](#)
+![Focus: Backend Systems](https://img.shields.io/badge/Focus-Backend%20Systems-0F172A?style=flat-square)
+![Discipline: API Architecture](https://img.shields.io/badge/Discipline-API%20Architecture-334155?style=flat-square)
+![Mode: AI-Assisted Workflows](https://img.shields.io/badge/Mode-AI--Assisted%20Workflows-0F766E?style=flat-square)
 
 **Backend-first builder | Systems Development at SENAI PR**
 
