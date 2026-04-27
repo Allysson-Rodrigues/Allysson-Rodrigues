@@ -6,6 +6,11 @@
     <img src="https://readme-typing-svg.herokuapp.com?font=Inter&size=16&duration=3000&pause=600&color=6B7280&vCenter=true&width=840&lines=Reliable+APIs+with+explicit+contracts;Auth%2C+observability%2C+deployment%2C+DB+policies;AI-assisted+workflows+with+Claude%2C+Codex%2C+Gemini%2C+and+MCP" alt="Typing SVG" />
   </a>
 </p>
+<p>
+  <a href="https://allyssonrodrigues.dev" target="_blank">
+    <img alt="Portfolio" src="https://img.shields.io/badge/Portfólio-allyssonrodrigues.dev-00D2FF?style=for-the-badge&logo=vercel&logoColor=white" />
+  </a>
+</p>
 
 I build my backend foundations in public and treat delivery as a system: clear contracts, safe defaults, reproducible workflows, and pragmatic automation. My current focus is Node.js, TypeScript, API architecture, and AI-assisted developer tooling.
 
@@ -131,6 +136,9 @@ projetos/
 
 ## Links
 <p>
+  <a href="https://allyssonrodrigues.dev" target="_blank">
+    <img alt="Portfolio" src="https://img.shields.io/badge/Website-allyssonrodrigues.dev-00D2FF?style=flat&logo=vercel&logoColor=white" />
+  </a>
   <a href="https://g.dev/AllyssonRodrigues">
     <img alt="Google Dev" src="https://img.shields.io/badge/g.dev-AllyssonRodrigues-4285F4?style=flat&logo=google&logoColor=white" />
   </a>
