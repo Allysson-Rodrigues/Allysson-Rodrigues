@@ -1,59 +1,61 @@
 # Allysson Rodrigues
-**Backend-first builder | Systems Development at SENAI PR**
+**AI-assisted engineering workflows | Backend systems, tooling, and scoped automation**
 
 <p>
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Inter&size=16&duration=3000&pause=600&color=6B7280&vCenter=true&width=840&lines=Reliable+APIs+with+explicit+contracts;Auth%2C+observability%2C+deployment%2C+DB+policies;AI-assisted+workflows+with+Claude%2C+Codex%2C+Gemini%2C+and+MCP" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Inter&size=16&duration=3000&pause=600&color=6B7280&vCenter=true&width=840&lines=Reliable+delivery+through+clear+contracts+and+reviewable+automation;Backend+systems%2C+developer+tooling%2C+and+MCP-connected+workflows;AI-assisted+execution+without+lowering+the+verification+bar" alt="Typing SVG" />
   </a>
 </p>
 <p>
   <a href="https://allyssonrodrigues.dev" target="_blank">
-    <img alt="Portfolio" src="https://img.shields.io/badge/Portfólio-allyssonrodrigues.dev-00D2FF?style=for-the-badge&logo=vercel&logoColor=white" />
+    <img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-allyssonrodrigues.dev-0F172A?style=for-the-badge&logo=vercel&logoColor=white" />
   </a>
 </p>
 
-I build my backend foundations in public and treat delivery as a system: clear contracts, safe defaults, reproducible workflows, and pragmatic automation. My current focus is Node.js, TypeScript, API architecture, and AI-assisted developer tooling.
+I build software with a strong bias toward explicit contracts, predictable delivery, and reviewable automation. My current focus is backend systems, developer tooling, and AI-assisted workflows that stay useful under real engineering constraints.
 
 ---
 
-## Engineering Philosophy
-- Constraints improve design. Clear boundaries usually produce better systems.
-- Explicit contracts beat implicit behavior. Errors, interfaces, and validation should be predictable.
-- Reliable delivery depends on repeatable workflows. Checks should be easy to run and hard to skip.
+## Principles
+- Explicit contracts over implicit behavior.
+- Validation should be part of the workflow, not a cleanup step.
+- Automation is only useful when scope, permissions, and failure modes are clear.
+- Reliable delivery depends on repeatable systems, not improvised heroics.
 
 ---
 
-## AI Workflow
-I use AI tools as part of a disciplined engineering loop, not as a replacement for verification. The goal is faster iteration with explicit validation, focused diffs, and lower operational risk.
+## Workflow
+I use AI tooling as part of a disciplined engineering loop rather than as a substitute for judgment. The objective is faster iteration with small diffs, legible decisions, and concrete validation at every meaningful step.
 
-### Tool roles
+Typical approach:
+1. Explore with research-first tooling and map the problem space.
+2. Plan with explicit constraints, success criteria, and validation paths.
+3. Implement in small, reviewable changes with local verification.
+4. Escalate to specialist agents only when the task genuinely benefits from them.
+5. Close with concrete checks and a clear record of tradeoffs.
 
-| Tool | Best for | Guardrails |
-| --- | --- | --- |
-| **Gemini CLI** | Research, exploration, alternative approaches, first-pass drafts | Treat outputs as input, verify claims, avoid copy-paste from external sources |
-| **Claude Code & Ext.**| Deep reasoning, complex refactors, and architectural context | Verify logic steps, review before large diffs, enforce strict context boundaries |
-| **Codex CLI** | Code changes, refactors, local checks, focused implementation | Manual-first workflow, explicit commands, small reviewable diffs |
-| **Antigravity** | Structured sessions, scoped agents, targeted task decomposition | Keep a single source of truth, use only what the task needs |
-| **MCP** | Safe connections between tools, services, and project context | Least privilege, explicit boundaries, no unnecessary secret exposure |
+Core surfaces:
 
-### Typical loop
-1. **Flows first**: Initialize workspace rules and context using explicit scripts (`06-scripts/`).
-2. **Test-Driven Planning (TDP)**: Explore the problem space and draft the structural proof plan with **Gemini CLI (Plan Mode)** for a "Human-in-the-Loop" block.
-3. **Execution**: Post-plan, implement iteratively and validate via **Codex** (CLI/VS Code) or the **native IDE**.
-4. **Specialists**: Call **Antigravity** or **Claude Code** when a task benefits from deep reasoning, QA, debugging, or a specialized multi-agent pass.
-5. **Close**: Run explicit checks, require adversarial review if risky, and finalize with a concrete summary of tradeoffs.
-
-### Tooling links
-- **Claude Code** ([docs](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview)) - deep reasoning workflows, agentic loop assistance, and complex codebase modifications.
-- **Codex CLI** ([npm](https://www.npmjs.com/package/%40openai/codex), [overview](https://openai.com/codex/)) - local coding workflows, focused edits, and validation loops.
-- **OpenAI Codex app** ([release](https://openai.com/index/introducing-the-codex-app/)) - structured coding sessions and project-oriented workflows.
-- **Gemini CLI** ([docs](https://developers.google.com/gemini-code-assist/docs/gemini-cli), [repo](https://github.com/google-gemini/gemini-cli)) - terminal-first assistance for research, code iteration, and productivity.
-- **Google Antigravity** ([announcement](https://developers.googleblog.com/build-with-google-antigravity-our-new-agentic-development-platform/), [download](https://antigravity.google/download)) - modular agent workflows and scoped sessions.
-- **Model Context Protocol (MCP)** ([spec](https://modelcontextprotocol.io/specification/)) - safe, scoped tool connectivity across systems.
+| Surface | Role |
+| --- | --- |
+| **Gemini CLI** | Research, exploration, and first-pass synthesis |
+| **Claude Code** | Deep reasoning, structural review, and hard debugging passes |
+| **Codex** | Local implementation, refactors, validation loops, and focused edits |
+| **Antigravity** | Scoped sessions, routing, and bounded decomposition |
+| **MCP** | Explicit connectivity between project context, services, and tools |
 
 ---
 
-## MCP Stack
+## Selected Work
+- [Petshop Small Breeds Premium](https://github.com/Allysson-Rodrigues/petshop-small-breeds-premium) - full-stack system with admin operations, auth flows, booking requests, and deployment discipline.
+- [Voice Note AI](https://github.com/Allysson-Rodrigues/voice-note-ai) - Windows-first dictation workflow with Azure Speech-to-Text, safe text injection, and adaptive suggestions.
+- [Clean Express API](https://github.com/Allysson-Rodrigues/clean-express-api) - API structure centered on validation, consistent errors, and explicit architectural boundaries.
+- [Backend TS Foundations](https://github.com/Allysson-Rodrigues/backend-ts-foundations) - Node.js and TypeScript practice focused on consistency, contracts, and delivery fundamentals.
+- [TradingView Indicator](https://github.com/Allysson-Rodrigues/tradingview-indicator) - Pine Script experiments for structured technical analysis and trading automation.
+
+---
+
+## MCP Surface
 <p>
   <img alt="Supabase" src="https://img.shields.io/badge/Supabase-MCP-3FCF8E?style=flat&logo=supabase&logoColor=white" />
   <img alt="TestSprite" src="https://img.shields.io/badge/TestSprite-MCP-6B7280?style=flat" />
@@ -63,12 +65,7 @@ I use AI tools as part of a disciplined engineering loop, not as a replacement f
   <img alt="Gemini" src="https://img.shields.io/badge/Gemini-MCP-4285F4?style=flat&logo=google&logoColor=white" />
 </p>
 
-What I use these for:
-- **Supabase** - schema iteration, RLS patterns, storage workflows, and local-to-prod feedback loops.
-- **TestSprite** - automated test flows, CI-friendly validation, and coverage signals.
-- **Stripe** - payment lifecycle experiments, webhooks, and test-mode checkout flows.
-- **Sentry** - production debugging loops from issue to event to fix plan.
-- **Clerk** - auth quickstarts and modern identity patterns across app frameworks.
+I use MCP surfaces where they improve context transfer, reduce manual friction, and keep tool boundaries explicit.
 
 ---
 
@@ -82,29 +79,12 @@ What I use these for:
 | **Databases** | SQLite, PostgreSQL, Prisma |
 | **Infra & Delivery** | Docker, Linux CLI, Git, GitHub, Vercel |
 
-<p>
-  <img alt="Docker" src="https://img.shields.io/static/v1?label=Docker&message=%20&color=2496ED&style=flat&logo=docker&logoColor=white" />
-  <img alt="Linux" src="https://img.shields.io/static/v1?label=Linux&message=%20&color=FCC624&style=flat&logo=linux&logoColor=111827" />
-  <img alt="Git" src="https://img.shields.io/static/v1?label=Git&message=%20&color=F05032&style=flat&logo=git&logoColor=white" />
-  <img alt="GitHub" src="https://img.shields.io/static/v1?label=GitHub&message=%20&color=181717&style=flat&logo=github&logoColor=white" />
-  <img alt="Vercel" src="https://img.shields.io/static/v1?label=Vercel&message=%20&color=000000&style=flat&logo=vercel&logoColor=white" />
-</p>
-
----
-
-## Featured Work
-- [Petshop Small Breeds Premium](https://github.com/Allysson-Rodrigues/petshop-small-breeds-premium) - full-stack practice with admin dashboard, auth flows, booking requests, and Vercel deployment.
-- [Voice Note AI](https://github.com/Allysson-Rodrigues/voice-note-ai) - Windows-first dictation app with Azure Speech-to-Text, safe text injection, and adaptive suggestions.
-- [Clean Express API](https://github.com/Allysson-Rodrigues/clean-express-api) - architecture-first API patterns with validation, consistent errors, and TypeScript-first structure.
-- [Backend TS Foundations](https://github.com/Allysson-Rodrigues/backend-ts-foundations) - disciplined Node.js and TypeScript practice with a focus on consistency and delivery basics.
-- [TradingView Indicator](https://github.com/Allysson-Rodrigues/tradingview-indicator) - Pine Script experiments for structured technical analysis and trading automation.
-
 ---
 
 ## Roadmap (2026)
-- Ship stronger end-to-end projects with auth, observability, deployment discipline, and secure backend defaults.
-- Publish better API baselines with contract clarity, validation, and operational guardrails.
-- Keep improving AI-assisted workflows without relaxing verification quality.
+- Strengthen end-to-end projects with auth, observability, and deployment discipline.
+- Publish sharper backend baselines with better contracts and operational safeguards.
+- Keep refining AI-assisted workflows without relaxing verification standards.
 
 ---
 
@@ -137,13 +117,13 @@ projetos/
 ## Links
 <p>
   <a href="https://allyssonrodrigues.dev" target="_blank">
-    <img alt="Portfolio" src="https://img.shields.io/badge/Website-allyssonrodrigues.dev-00D2FF?style=flat&logo=vercel&logoColor=white" />
+    <img alt="Website" src="https://img.shields.io/badge/Website-allyssonrodrigues.dev-0F172A?style=flat&logo=vercel&logoColor=white" />
   </a>
   <a href="https://g.dev/AllyssonRodrigues">
     <img alt="Google Dev" src="https://img.shields.io/badge/g.dev-AllyssonRodrigues-4285F4?style=flat&logo=google&logoColor=white" />
   </a>
-  <a href="mailto:alissonrodriig@gmail.com">
-    <img alt="Email" src="https://img.shields.io/badge/Email-alissonrodriig%40gmail.com-EA4335?style=flat&logo=gmail&logoColor=white" />
+  <a href="mailto:contato@allyssonrodrigues.dev">
+    <img alt="Email" src="https://img.shields.io/badge/Email-contato%40allyssonrodrigues.dev-EA4335?style=flat&logo=gmail&logoColor=white" />
   </a>
   <a href="https://x.com/AllyssonRodriig">
     <img alt="X" src="https://img.shields.io/badge/X-@AllyssonRodriig-111827?style=flat&logo=x&logoColor=white" />
