@@ -12,7 +12,7 @@
   </a>
 </p>
 
-I build software with a strong bias toward explicit contracts, predictable delivery, and reviewable automation. My current focus is backend systems, developer tooling, and AI-assisted workflows that stay useful under real engineering constraints.
+I build software with a strong bias toward explicit contracts, predictable delivery, and reviewable automation. I am currently studying Systems Development at SENAI PR, with a focus on backend systems, developer tooling, and AI-assisted workflows that stay useful under real engineering constraints.
 
 ---
 
