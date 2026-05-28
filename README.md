@@ -85,6 +85,7 @@ I use MCP surfaces where they improve context transfer, reduce manual friction, 
 - Strengthen end-to-end projects with auth, observability, and deployment discipline.
 - Publish sharper backend baselines with better contracts and operational safeguards.
 - Keep refining AI-assisted workflows without relaxing verification standards.
+- Keep profile and project documentation aligned with active delivery work.
 
 ---
 
