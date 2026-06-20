@@ -95,18 +95,22 @@ I use MCP surfaces where they improve context transfer, reduce manual friction, 
 A live view of my current local workspace architecture, optimized for agentic development:
 
 ```text
-workspace/
-├── 00-inbox/           # Transient intake and triage
-├── 01-projects/        # Active repository clones
-├── 02-areas/           # Long-term responsibilities
-├── 03-resources/       # Reference material & shared assets
-├── 04-archives/        # Inactive logs, specs, and history
-├── governance/         # Policy, checklists, ADRs, prompts
-├── scripts/            # Operational infrastructure
-├── AGENTS.md           # The Agent Protocol
-├── CLAUDE.md           # Agent-specific adapter
-├── GEMINI.md           # Agent-specific adapter
-└── README.md           # Workspace main guide
+projetos/
+├── 01-projetos/        # Active projects (frontend & backend apps)
+├── 02-pacotes/         # Shared packages (e.g., UI kits, libraries)
+├── 03-playground/      # Sandboxes and experiments
+├── 04-docs/            # Auxiliary or legacy material
+├── 05-arquivo/         # Historical, paused, and temporary material
+├── 06-scripts/         # Workspace automation and CLI tooling
+├── 07-github/          # Local mirror of external repositories
+├── 08-operacional/     # Backups, artifacts, and operational logs
+├── docs/               # Canonical documentation hub
+├── tests/              # End-to-end and governance testing
+├── tasks/              # Active sprint, lessons, and progress tracking
+├── plans/              # Transient implementation plans (TDP mode)
+├── skills/             # Antigravity/Agent extensions and specific toolsets
+├── .agent/             # Agent rules and workflows (Antigravity/Gemini/Claude)
+└── mcp-servers/        # Local Model Context Protocol servers
 ```
 
 ---
@@ -126,3 +130,5 @@ workspace/
     <img alt="X" src="https://img.shields.io/badge/X-@AllyssonRodriig-111827?style=flat&logo=x&logoColor=white" />
   </a>
 </p>
+
+<!-- Last contribution: 2026-06-20T13:22:41-03:00 (Antigravity AI Session) -->
