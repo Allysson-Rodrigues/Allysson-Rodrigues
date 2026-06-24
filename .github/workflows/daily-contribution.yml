@@ -1,0 +1,54 @@
+name: Daily Contribution
+
+on:
+  schedule:
+    # Executa todos os dias às 23:00 UTC (20:00 Horário de Brasília)
+    - cron: '0 23 * * *'
+  workflow_dispatch: # Permite execução manual pelo painel do GitHub Actions
+
+jobs:
+  contribute:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Update Timestamp and Merge PR
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # 1. Configurar o Git
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # 2. Criar a branch temporária de contribuição
+          git checkout -b automated-contribution
+          
+          # 3. Atualizar o timestamp do README.md
+          export TZ="America/Sao_Paulo"
+          TIMESTAMP=$(date -Iseconds)
+          sed -i "s/<!-- Last contribution: .* -->/<!-- Last contribution: $TIMESTAMP (Automated Daily Session) -->/g" README.md
+          
+          # 4. Commitar e fazer push forçado da branch
+          git commit -am "docs: update profile readme with daily contribution metadata (automated)"
+          git push origin automated-contribution --force
+          
+          # 5. Criar ou reutilizar o Pull Request
+          EXISTING_PR=$(gh pr list --head automated-contribution --json url --jq '.[0].url')
+          if [ -z "$EXISTING_PR" ]; then
+            PR_URL=$(gh pr create --title "docs: update profile readme with daily contribution metadata (automated)" --body "Automated daily contribution to update profile readme metadata." --head automated-contribution --base main)
+          else
+            PR_URL="$EXISTING_PR"
+          fi
+          
+          echo "Mesclando Pull Request: $PR_URL"
+          
+          # 6. Mesclar o PR (tenta como admin para bypassar regras se possível, senão faz merge normal)
+          gh pr merge "$PR_URL" --squash --delete-branch --admin || gh pr merge "$PR_URL" --squash --delete-branch
